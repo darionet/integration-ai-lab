@@ -60,3 +60,14 @@ C:\Dev\Practice\integration-ai-lab\fase-02-api-rest\LabApi\bin\Debug\net10.0\run
 C:\Dev\Practice\integration-ai-lab\fase-02-api-rest\LabApi\bin\Debug\net10.0\runtimes\win-x86\native\vcruntime140.dll
 C:\Dev\Practice\integration-ai-lab\fase-02-api-rest\LabApi\bin\Debug\net10.0\runtimes\win-x86\native\z.dll
 C:\Dev\Practice\integration-ai-lab\fase-02-api-rest\LabApi\bin\Debug\net10.0\runtimes\win-x86\native\zstd.dll
+C:\Dev\Practice\integration-ai-lab\fase-02-api-rest\LabApi\bin\Debug\net10.0\Microsoft.Extensions.DependencyModel.dll
+C:\Dev\Practice\integration-ai-lab\fase-02-api-rest\LabApi\bin\Debug\net10.0\Serilog.dll
+C:\Dev\Practice\integration-ai-lab\fase-02-api-rest\LabApi\bin\Debug\net10.0\Serilog.AspNetCore.dll
+C:\Dev\Practice\integration-ai-lab\fase-02-api-rest\LabApi\bin\Debug\net10.0\Serilog.Extensions.Hosting.dll
+C:\Dev\Practice\integration-ai-lab\fase-02-api-rest\LabApi\bin\Debug\net10.0\Serilog.Extensions.Logging.dll
+C:\Dev\Practice\integration-ai-lab\fase-02-api-rest\LabApi\bin\Debug\net10.0\Serilog.Formatting.Compact.dll
+C:\Dev\Practice\integration-ai-lab\fase-02-api-rest\LabApi\bin\Debug\net10.0\Serilog.Settings.Configuration.dll
+C:\Dev\Practice\integration-ai-lab\fase-02-api-rest\LabApi\bin\Debug\net10.0\Serilog.Sinks.Console.dll
+C:\Dev\Practice\integration-ai-lab\fase-02-api-rest\LabApi\bin\Debug\net10.0\Serilog.Sinks.Debug.dll
+C:\Dev\Practice\integration-ai-lab\fase-02-api-rest\LabApi\bin\Debug\net10.0\Serilog.Sinks.File.dll
+C:\Dev\Practice\integration-ai-lab\fase-02-api-rest\LabApi\bin\Debug\net10.0\Serilog.Sinks.Seq.dll

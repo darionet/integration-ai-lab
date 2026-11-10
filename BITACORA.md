@@ -119,3 +119,14 @@
   hasta dónde leyó cada grupo (offset). Al reiniciar, sigue desde ahí.
 - Tiempo: XX min
 - Racha actual: X días
+
+## 2026-11-10 (sesión 16 — inicio fase 05)
+- Qué hice: levanté Seq en Docker y configuré LabApi con Serilog para
+  enviarle logs. Vi mis eventos de /integrations/status con el campo
+  CheckedAt como propiedad buscable.
+- Problema: Seq no levantaba. docker logs me mostró que faltaba la
+  variable SEQ_FIRSTRUN_NOAUTHENTICATION. Recreé el contenedor con ella.
+- Aprendizaje: log estructurado = campos buscables, no texto plano.
+  Primer paso ante un contenedor caído: docker logs.
+- Tiempo: XX min
+- Racha actual: día 1 (nueva racha después de la pausa)

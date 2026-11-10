@@ -1,7 +1,11 @@
 using Scalar.AspNetCore;
 using Confluent.Kafka;
+using Serilog;
 
 var builder = WebApplication.CreateBuilder(args);
+builder.Host.UseSerilog((context, config) => config
+    .WriteTo.Console()
+    .WriteTo.Seq("http://localhost:5341"));
 
 // Add services to the container.
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
@@ -28,12 +32,14 @@ var summaries = new[]
 };
 
 
-app.MapGet("/integrations/status", async (IProducer<Null, string> producer) =>
+app.MapGet("/integrations/status", async (IProducer<Null, string> producer, ILogger<Program> logger) =>   // ← nuevo: ILogger
 {
     var checkedAt = DateTime.UtcNow;
 
     await producer.ProduceAsync("lab-events",
         new Message<Null, string> { Value = $"status consultado a las {checkedAt:O}" });
+
+    logger.LogInformation("Status consultado a las {CheckedAt}", checkedAt);   // ← nuevo
 
     return new
     {
